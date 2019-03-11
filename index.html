@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS INTRO</title>
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body style="margin-left: 500px;">
+    <div>
+        <h2>Find the sum of two numbers:</h2>
+        <div style="margin: 10px auto;">
+            <input id="X" type="number" placeholder='Enter a value for "X"'>
+            <input style="margin-left: 10px" id="Y" type="number" placeholder='Enter a value for "Y"'>
+            <button onclick="addTwoNumbers()" style="margin-left: 10px;" id="sum">CALCULATE</button>
+            <p style="margin-left: 185px; font-size: 18px;" name="sum-output" id="sum-output"></p>
+        </div>                
+    </div>
+    <div>
+        <h2>Sum a list of numbers:</h2>
+        <div style="margin-top: 10px;">
+                <input id="numList" type="number" placeholder="Enter a list of numbers.">
+            <button onclick="sumList()" style="margin-left: 10px;" id="sum">CALCULATE</button>
+            <div style="margin: 20px 0;"><textarea name="sumList-output" id="sumList-output" cols="58" rows="2"></textarea></div>
+        </div>                
+    </div>
+    <div>
+        <h2>Give me a sentence:</h2>
+        <div style="margin: 10px auto;">
+            <input id="sentence" type="text" placeholder="Enter your sentence here.">
+            <input style="margin-left: 10px;" id="word" type="text" placeholder="Enter a word for me to find.">
+            <button onclick="findWord()" style="margin-left: 10px;" id="findWord">FIND</button>
+            <div style="margin: 10px 0;">
+                    <textarea name="findWord-output" id="findWord-output" cols="58" rows="2"></textarea>
+            </div>
+        </div>                
+    </div>
+    <div>
+        <h2>Add 7 to any number:</h2>
+        <div style="margin: 10px auto;">
+            <input id="add7" type="number" placeholder="Enter the number here.">
+            <button onclick="add7()" style="margin-left: 10px;" id="add7-button">ADD7</button>
+            <div style="margin: 10px 0;"></div><p style="margin-left: 180px; font-size: 18px;" name="add7-output" id="add7-output"></p>
+        </div>                
+    </div>
+    <div>
+        <h2>Find the product of two numbers:</h2>
+        <div style="margin: 10px auto;">
+            <input id="A" type="number" placeholder='Enter a value for "A"'>
+            <input style="margin-left: 10px" id="B" type="number" placeholder='Enter a value for "B"'>
+            <button onclick="multiply()" style="margin-left: 10px;" id="sum">CALCULATE</button>
+            <p style="margin-left: 185px; font-size: 18px;" name="multiply-output" id="multiply-output"></p>
+        </div>                
+    </div>
+    <div>
+        <h2>Give me a word to capitalize such as a name or proper noun:</h2>
+        <div style="margin: 10px auto;">
+            <input id="capitalizeWord" type="text" placeholder="Enter the word here.">
+            <button onclick="capitalize()" style="margin-left: 10px;" id="capitalize">CAPITALIZE</button>
+            <div style="margin: 10px 0;">
+                <p name="capitalizeWord-output" id="capitalizeWord-output"></p>
+            </div>
+        </div>                
+    </div>
+    <div>
+        <h2>Give me a word or sentence. I'll show you a magic trick:</h2>
+        <div style="margin: 10px auto;">
+            <input id="lastLetter" type="text" placeholder="Enter the word or sentence here.">
+            <button onclick="lastLetter()" style="margin-left: 10px;" id="lastLetter">ABRA CADABRA</button>
+            <div style="margin: 10px 0;">
+                <p name="lastLetter-output" id="lastLetter-output"></p>
+            </div>
+        </div>                
+    </div>
+</body>
+</html>
